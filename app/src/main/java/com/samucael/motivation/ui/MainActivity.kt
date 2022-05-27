@@ -9,11 +9,13 @@ import com.samucael.motivation.R
 import com.samucael.motivation.data.Mock
 import com.samucael.motivation.infra.SecurityPreferences
 import com.samucael.motivation.databinding.ActivityMainBinding
+import java.util.*
 
 open class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityMainBinding
     private var categoryId = MotivationConstants.FILTER.INCLUSIVE
+    var mock = Mock()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,8 +45,7 @@ open class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun handleNextPhrase() {
-        binding.textPhrase.text = Mock().getPhrase(categoryId)
-
+        binding.textPhrase.text = Mock().getPhrase(categoryId, Locale.getDefault().language)
     }
 
     private fun handleFilter(id: Int) {
