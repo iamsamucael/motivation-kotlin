@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420211264695",
+    "project_id": "application-motivation",
+    "storage_bucket": "application-motivation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420211264695:android:c5238d0e9a86affcdd1132",
+        "android_client_info": {
+          "package_name": "com.samucael.motivation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420211264695-b60cgedde61lem6a8krmnsv3vgr4d5d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNAHfF2ncoQQds44YHLUJLiP3fCrK9PiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420211264695-b60cgedde61lem6a8krmnsv3vgr4d5d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
